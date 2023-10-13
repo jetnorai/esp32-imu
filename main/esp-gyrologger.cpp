@@ -66,7 +66,7 @@ void app_main_cpp(void) {
 
     do {
         FsSettings fs_settings{
-            .external_sd = true, .pin_mosi = 3, .pin_miso = 7, .pin_clk = 8, .pin_cs = 4};
+            .external_sd = true, .pin_mosi = 23, .pin_miso = 19, .pin_clk = 18, .pin_cs = 5};
         if (fs_init(&fs_settings)) {
             break;
         }
